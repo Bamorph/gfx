@@ -25,7 +25,7 @@ This is a simple Go program that searches for files with specified extensions in
    Example:
 
     ```bash
-    go run main.go zip tar
+    gfx zip tar
     ```
 
 4. The program will recursively search for files with the specified extensions in the current directory and its subdirectories.
