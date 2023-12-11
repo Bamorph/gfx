@@ -16,7 +16,7 @@ This is a simple Go program that searches for files with specified extensions in
 3. Run the program with the desired file extensions:
 
     ```bash
-    go run main.go <file_extension1> [<file_extension2> ...]
+    gfx <file_extension1> [<file_extension2> ...]
     ```
 
    Replace `<file_extension1>`, `<file_extension2>`, etc., with the file extensions you want to search for (e.g., `zip`, `tar`).
