@@ -22,7 +22,7 @@ func findFilesByExtensions(root string, exts []string) {
 		if !info.IsDir() {
 			for _, pattern := range extPatterns {
 				if pattern.MatchString(info.Name()) {
-					fmt.Println(path)
+					fmt.Println(root + "/" + path)
 					break
 				}
 			}
@@ -34,7 +34,7 @@ func findFilesByExtensions(root string, exts []string) {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <file_extension1> [<file_extension2> ...]")
+		fmt.Println("Usage: gfx <file_extension1> [<file_extension2> ...]")
 		os.Exit(1)
 	}
 
