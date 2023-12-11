@@ -11,7 +11,7 @@ This is a simple Go program that searches for files with specified extensions in
     ```bash
     git clone https://github.com/Bamorph/gfx.git
     cd gfx
-    go build
+    go install
     ```
 
 3. Run the program with the desired file extensions:
